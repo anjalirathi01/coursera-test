@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Assignment 2</title>
+</head>
+<style >
+	/*basic style*/
+	* {
+		box-sizing: border-box;
+	}
+	body {
+		background-color: white;
+	}
+	h1 {
+		margin: 100px;
+		text-align: center;
+		font-family: Helvetica;
+		font-weight: bold;
+		font-size: 175%;
+	}
+	section {
+		position: relative;
+		padding: 15px;
+		width: 100%;
+	}
+	p {
+		position: relative;
+		clear: right;
+	}
+	div {
+		position: relative;
+		background-color: gray;
+		border: 1px solid black;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: auto;
+	}
+	.sub1 {
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: white;
+		
+	}
+	.sub2 {
+		float: right;
+		color: white;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: maroon;
+		
+	}
+	.sub3 {
+		color: black;
+		float: right;
+		width: 100px;
+		padding: 5px;
+		margin: 0px;
+		border: 1px solid black;
+		text-align: center;
+		font-size: 125%;
+		font-weight: bold;
+		background-color: tomato;
+		
+	}
+	.content {
+		padding: 5px;
+		border: none;
+		background-color: gray;
+		font-family: Helvetica;
+		color: black;
+		margin: 0px;
+		height: 200px;
+		overflow: auto;
+	}
+	
+	.row {
+		width: 90%;
+	}
+	
+	/*desktop version*/
+	@media (min-width: 992px){
+		.column-lg-4 {
+			float: left;
+			width: 33.33%;
+		}
+	}
+	/*tablet version*/
+	<!--@media (min-width: 768px) and (max-width: 991px){
+		.colmn-md-6 {
+			float: left;
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.colmn-md-12 {
+			float: left;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}-->
+	/*mobile version*/
+	@media (max-width: 767px){
+		.colmn-sm-12 {
+			float: left;
+			width: 100%;
+		}
+	}
+</style>
+<body >
+<h1>---My Favourite Food---</h1>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub1">Dosa</p>
+			<p class="content">
+			 A traditional breakfast food made of fermented rice-and-lentil batter, a dosa is much like a crispy thin crepe. It’s accompanied by sambar (a hot lentil soup) and coconut chutney.
+Masala dosas are stuffed with a spicy mash of potato and onion; plain dosas are hollow; rava dosas are made from semolina; and some new-age variants get creative with fillings such as cottage cheese or mixed vegetables.
+Whatever you choose (trust us and start with a masala dosa), the delightfully light dish is best eaten hot, when it’s fresh off the griddle.
+			</p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+		<div>
+			<p class="sub2">Chaat</p>
+			<p class="content">
+                          The original chaat is a mixture of potato pieces, crisp fried bread dahi vada or dahi bhalla, gram or chickpeas and tangy-salty spices, with sour 
+Indian chili and saunth (dried ginger and tamarind sauce), fresh green coriander leaves and yogurt for garnish, but other popular variants included aloo tikkis 
+or samosa </p>
+		</div>
+	</section>
+	<section class="column-lg-4 colmn-md-12 colmn-sm-12">
+	<div>
+		<p class="sub3">Daal Batti</p>
+			<p class="content">Dal baati is an Indian dish of dal (lentils) and baati (hard wheat rolls). ... Baati is a hard bread made up of wheat flour
+ commonly known as aata. Wheat flour is kneaded with little bit of salt, dahi (yogurt) and water. Tennis ball-sized round balls of this dough are cooked in a well-
+heated traditional oven.Dal baati is an Indian dish of dal and baati. It is popular in Rajasthan, Gujarat, Uttar Pradesh and Madhya Pradesh
+			</p>
+	</div>
+</body>
+</html>
